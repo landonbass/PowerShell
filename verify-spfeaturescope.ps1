@@ -13,6 +13,7 @@ function verify-spfeaturescope () {
         }
     }
     catch {
+        write-host -foregroundcolor red "error:" $_
     }
 }
 
