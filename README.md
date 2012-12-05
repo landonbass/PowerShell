@@ -16,9 +16,9 @@ that represent objects in the config db, setting the ini file to 1, and restarti
 checks for features that do not have a scope specified. i have seen this occur numerous times with custom 
 features, which can cause orphaned items in the config db and/or filesystem
 
-##verify-spobjectchacelimit
+##verify-spoutputcachelimit
 this is an enhancement on a todd carter blog post (see script comments for url) that checks the number
-of uniquely secured items in a site collection. it can output the sql statement that needs to be run, or
+of uniquely secured items in a site collection to verify if output cache will function. it can output the sql statement that needs to be run, or
 it can attempt to execute it itself
 
 ##verify-spwebapplicationportalaccounts
