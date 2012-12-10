@@ -23,3 +23,7 @@ it can attempt to execute it itself
 
 ##verify-spwebapplicationportalaccounts
 checks each web application (except ca) to verify that the portal superuser and superreader accounts are set
+
+##verify-spwebparts
+checks a publishing page for potential web part performance issues (custom, closed, audience, cqwp, cqwp with/audience filtering, etc.)
+this will not work in foundation
