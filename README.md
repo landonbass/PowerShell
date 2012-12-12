@@ -12,6 +12,9 @@ web applications)
 clears the timer service cache on the local server by stopping sptimerv4, clearing the xml files
 that represent objects in the config db, setting the ini file to 1, and restarting the service
 
+##set-sppeoplepicker
+sets people picker properties to limit lookup
+
 ##verify-spfeaturescope
 checks for features that do not have a scope specified. i have seen this occur numerous times with custom 
 features, which can cause orphaned items in the config db and/or filesystem
