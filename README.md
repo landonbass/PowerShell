@@ -24,6 +24,9 @@ this is an enhancement on a todd carter blog post (see script comments for url) 
 of uniquely secured items in a site collection to verify if output cache will function. it can output the sql statement that needs to be run, or
 it can attempt to execute it itself
 
+##verify-spsearchqueryservice
+verifies that the search query and site settings service is running and running only on query components
+
 ##verify-spwebapplicationportalaccounts
 checks each web application (except ca) to verify that the portal superuser and superreader accounts are set
 
