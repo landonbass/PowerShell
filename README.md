@@ -15,6 +15,9 @@ that represent objects in the config db, setting the ini file to 1, and restarti
 ##set-sppeoplepicker
 sets people picker properties to limit lookup
 
+##verify-loopbackcheck
+verifies that loopback has been disabled through the registry
+
 ##verify-spfeaturescope
 checks for features that do not have a scope specified. i have seen this occur numerous times with custom 
 features, which can cause orphaned items in the config db and/or filesystem
