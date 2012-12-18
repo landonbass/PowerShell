@@ -30,6 +30,9 @@ it can attempt to execute it itself
 ##verify-spsearchqueryservice
 verifies that the search query and site settings service is running and running only on query components
 
+##verify-spuilsync
+wraps stsadm -o sync -listolddatabases 1 to see how many content databases need to be synced
+
 ##verify-spwebapplicationportalaccounts
 checks each web application (except ca) to verify that the portal superuser and superreader accounts are set
 
