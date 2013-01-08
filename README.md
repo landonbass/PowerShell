@@ -8,6 +8,9 @@ returns servers in a farm based on type (web application, central admin, databas
 i use this when checking server settings / artifacts based on role (i.e. deploy pdf icon to servers hosting
 web applications)
 
+##impersonate-spsite
+gets a spsite object using the token of a specified user, "impersonating" the object
+
 ##reset-sptimerservicecache
 clears the timer service cache on the local server by stopping sptimerv4, clearing the xml files
 that represent objects in the config db, setting the ini file to 1, and restarting the service
