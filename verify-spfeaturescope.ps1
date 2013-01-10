@@ -1,5 +1,8 @@
 #author: landon bass
 #verifies features without a scope, which have been caused during orphaned deployments
+
+#NOTE:this should be run on each server, as I have seen features orphaned on some servers and not others
+
 add-pssnapin microsoft.sharepoint.powershell -ea 0
 
 cls
