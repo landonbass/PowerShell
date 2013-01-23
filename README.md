@@ -3,6 +3,9 @@ PowerShell Scripts
 
 Various PowerShell scripts that I have written/modified. Most are geared towards SharePoint.
 
+##delete-userprofiles
+deletes user profiles with a certain prefix, i.e. domain
+
 ##get-spserverbyrole
 returns servers in a farm based on type (web application, central admin, database)
 i use this when checking server settings / artifacts based on role (i.e. deploy pdf icon to servers hosting
