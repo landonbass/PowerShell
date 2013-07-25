@@ -2,6 +2,9 @@
 #verifies that the search query and site settings service is running only on query components
 #does sp enterprise search, not FAST
 
+#NOTE: this service does not need to run on servers hosting query components, it can run
+#on any server, this is just a configuration I preferred.
+
 add-pssnapin microsoft.sharepoint.powershell -ea 0
 
 cls
