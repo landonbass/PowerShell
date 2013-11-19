@@ -1,4 +1,4 @@
-#enable deveveloper dashboard for admins
+#enable developer dashboard for admins
 
 add-pssnapin microsoft.sharepoint.powershell -ea 0
 cls
