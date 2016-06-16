@@ -24,6 +24,9 @@ that represent objects in the config db, setting the ini file to 1, and restarti
 ##set-sppeoplepicker
 sets people picker properties to limit lookup
 
+##verify-lookupfields
+parses lookup field schemas in a site to ensure the referenced list exists
+
 ##verify-loopbackcheck
 verifies that loopback has been disabled through the registry
 
