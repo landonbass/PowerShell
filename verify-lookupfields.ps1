@@ -28,9 +28,8 @@ function verify-lookupfields {
                     $schemaList = $schema.field.list
                     $isHidden   = [system.convert]::toboolean($schema.field.group -eq "_hidden")
             
-                    #some OOTB people fields have no list set, we will assume all _hidden group are OOTB and we will skip them for now
+                    #some fields have no list set, we will assume all _hidden group are OOTB and we will skip them for now
                     #you can remove this check to verify these fields
-                    #as long as it is not in the hidden group, which some fields appear to work differently
                     #these fields are typically user fields that get tied to the user information list
                     if ([string]::isnullorempty($schemaList) -and $isHidden) {
                         return 
@@ -38,7 +37,7 @@ function verify-lookupfields {
 
                     #also, it can reference "self", either added as a list column or 'late bindable' as a site column and refers to the parent list
                     #or "userinfo" which is the siteuserinfolist
-                    #or "docs" which references columns in the allsdocs table in the content database
+                    #or "docs" which references columns in the alldocs table in the content database
                     #or "appprincipals, which ties to users who create/modify apps
                     if ($schemaList -in ("self", "userinfo", "docs", "appprincipals")) {
                         return 
